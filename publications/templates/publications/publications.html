@@ -1,0 +1,90 @@
+{% extends 'publications/base.html' %} {% load static%}
+
+{% block content %}
+    <section id="top-sectionp">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-5">
+                    <h2 class="section-heading">
+                        Place to Learn
+                    </h2>
+                    <h3 class="section-subheading">teststesknflkw</h3>
+                    <a type="button" class="btn btn-outline-warning" href="#publications">Our Publications</a>
+                </div>
+                <div class="col-7">
+                    <img src="{% static 'publications/img/edu-iso.png'%}" style="width:60%;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- publications -->
+    <section id="publications">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Publications</h2>
+                    <h3 class="section-subheading text-muted">list of publications made by our members</h3>
+                </div>
+            </div> 
+            <div class="row">
+                <table class="table text-center">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">No.</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Author</th>
+                            <th scope="col">Publisher</th>
+                            <th scope="col">Year of Publication</th>
+                            <th scope="col">Link</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Differential evolution for the cryptanalysis of transposition cipher</td>
+                            <td>Wulandari, Gia S., Wahyu Rismawan, and Siti Saadah.</td>
+                            <td>Information and Communication Technology (ICoICT)</td>
+                            <td>2015</td>
+                            <td><a class="btn btn-light" role="button" href="http://ieeexplore.ieee.org/abstract/document/7231394/" target="_blank"><i class="fa fa-file"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Elementary algorithms analysis of Megrelishvili protocol</td>
+                            <td>Arzaki, Muhammad</td>
+                            <td>Indonesian Journal on Computing (Indo-JC)</td>
+                            <td>2016</td>
+                            <td><a class="btn btn-light" role="button" href="http://socj.telkomuniversity.ac.id/ojs/index.php/indojc/article/view/52/0" target="_blank"><i class="fa fa-file"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>On the construction of secure public parameters for Megrelishvili protocol</td>
+                            <td>Arzaki, Muhammad, and Bambang Ari Wahyudi.</td>
+                            <td>Information and Communication Technology (ICoICT)</td>
+                            <td>2016</td>
+                            <td><a class="btn btn-light" role="button" href="http://ieeexplore.ieee.org/abstract/document/7571943/" target="_blank"><i class="fa fa-file"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Implementasi dan Analisis Sederhana Protokol Megrelishvili pada Bahasa Pemrograman Java</td>
+                            <td>Ahmad, Hafidz Sohihudin, Fahmi Alfiansya, dan Adrian Eka Febrianto.</td>
+                            <td>Indonesian Symposium on Computing (IndoSC)</td>
+                            <td>2016</td>
+                            <td><a class="btn btn-light" role="button" href="http://socj.telkomuniversity.ac.id/ocs/index.php/indosc/indosc2016/paper/view/118" target="_blank"><i class="fa fa-file"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Collision algorithms for breaking megrelishvili protocol: Theory and numerical experiments</td>
+                            <td>Arzaki, Muhammad, and Bambang Ari Wahyudi.</td>
+                            <td>Advanced Computer Science and Information Systems (ICACSIS)</td>
+                            <td>2016</td>
+                            <td><a class="btn btn-light" role="button" href="http://ieeexplore.ieee.org/abstract/document/7872728" target="_blank"><i class="fa fa-file"></i></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+      </section>
+  
+{% endblock %}
