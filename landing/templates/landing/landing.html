@@ -1,0 +1,186 @@
+{% extends 'landing/base.html' %} {% load static %}
+
+{% block content %}
+    <section id="top-section">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-5">
+                    <h2 class="section-heading">
+                        Place to Learn <br>
+                        Part to Grow
+                    </h2>
+                    <h3 class="section-subheading">Improve and develop knowledge
+                        and skills of Informatics students.</h3>
+                    <a type="button" class="btn btn-outline-warning js-scroll-trigger" href="#wedo">Explore more</a>
+                </div>
+                <div class="col-7">
+                    <img src="{% static 'landing/img/landing-iso.png'%}" style="width:70%;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--what we do-->
+    <section id="wedo">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">What We Do</h2>
+                    <h3 class="section-subheading text-muted">to empower resources in the lab, to support research programs carried out by lecturers of School of Computing, Telkom University.</h3>
+                </div>
+            </div>
+            <div class="row align-self-center">
+                <div class="col-lg-12 text-center">
+                    <img src="{% static 'landing/img/logo-1.png' %}" style="width:60%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SG Basic -->
+    <section id="sgbasic">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Study Group Basic</h2>
+                    <h3 class="section-subheading text-muted">this activity will focus on algorithms and basic programming for one-year / second-year students</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6 center">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{% static 'landing/img/analytics.png' %}" style="width:90px;">
+                            <h5 class="card-title">Data Structure</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Struktur Data</h6>
+                            <p class="card-text">In this group, we learn about advance <br>
+                                data structure algorithms such as: Sorting, <br>
+                                Searching, Stack, Queue, Graph, <br>
+                                Tree, Intro Object Oriented Programming.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{% static 'landing/img/analytics-1.png' %}" style="width: 90px;">
+                            <h5 class="card-title">Design & Analysis of Algorithm</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Desain & Analisis Algoritma</h6>
+                            <p class="card-text">In this group, we learn about various<br>
+                                algorithms and analize them, such as: <br>
+                                Greedy, Brute force, Dynamic Programming, <br> 
+                                Divide and Conquer, dan Backtrack.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SG Advance -->
+    <section id="sgadvance">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 align-self-center">
+                    <h2 class="section-heading text-uppercase">Study Group Advance</h2>
+                    <h3 class="section-subheading text-muted">the advanced level of the Study Group. Group 
+                    discussion of members is the main differences 
+                    between the Study Group Advance and the Study Group.
+                    </h3>
+                </div>
+                <div class="col-7">
+                    <div class="row">
+                        <div class="col-6" id="swi">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="{% static 'landing/img/neuron.png' %}" style="width: 25%;">
+                                    <h5 class="card-title">Swarm Intelligence</h5>
+                                    <p class="card-text"> This study is initially focused on optimization. It has started to be applied to data mining and data analytics.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6" id="malin" > 
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="{% static 'landing/img/mechanical.png' %}" style="width: 25%;">
+                                    <h5 class="card-title">Machine Learning</h5>
+                                    <p class="card-text">The construction of algorithms that can learn & make predictions of data by building models from input samples.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6" id="swi">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="{% static 'landing/img/encryption.png' %}" style="width: 25%;">
+                                    <h5 class="card-title">Cryptography</h5>
+                                    <p class="card-text">This study group learn about key exchange protocols and cipher algorithms for data encryption.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6" id="malin">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="{% static 'landing/img/brain.png' %}" style="width: 25%;">
+                                    <h5 class="card-title">Competitive Programming</h5>
+                                    <p class="card-text">Involving members to make programs based on specified specifications within specified time.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- pelatihan -->
+    <section id="pelatihan">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Training</h2>
+                    <h3 class="section-subheading text-muted">a training that can be followed by Telkom University students</h3>
+                </div>
+            </div>
+            <div class="row" id="python">
+                <div class="col-7"></div>
+                <div class="col-5 text-right">
+                    <h4 class="service-heading">Python Training</h4>
+                    <p class="text-muted">Python programming language training aimed at Telkom University students, especially School of Computing students</p>
+                </div>
+            </div>
+            <div class="row" id="latex"> 
+                <div class="col-5 text-left">
+                    <h4 class="service-heading">LaTeX Training</h4>
+                    <p class="text-muted">intended for Telkom University students who are taking a final project I (seminar & proposal) course.</p>
+                </div>
+                <div class="col-7">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- responsi -->
+    <section id="responsi">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Response </h2>
+                    <h3 class="section-subheading text-muted">additional class for School of Computing in certain course</h3>
+                </div>
+            </div>
+            <div class="row align-self-center">
+                <div class="col-lg-12 text-center">
+                    <img src="{% static 'landing/img/responsi.png' %}" style="width:50%">
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
